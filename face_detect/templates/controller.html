@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<style>
+    .controller-box{
+        text-align: center:
+    }
+</style>
+
+<div class="controller-box">
+    <h1>Face & Body Controller</h1>
+</div>
+
+<body>
+    <img src="{{ url_for('video_feed') }}">
+</body>
+
+{% endblock %}
+
